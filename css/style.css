@@ -1,0 +1,274 @@
+
+
+/* ------------------ RESETS --------------- */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .list {
+    padding: 0;
+    margin: 0;
+  }
+
+  a{
+    text-decoration-line: none;
+} 
+
+
+
+
+
+
+
+         /*-------------------------------------------ADDITIONAL SETTINGS--------------------------- */
+         li,ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        .container{
+          padding-left: 15px;
+         padding-right:15px;
+         width: 1200px;
+         margin:0 auto;
+         }
+
+
+
+
+
+
+
+
+
+
+                                                 /*---------------HEADER----------------- */
+.navthings{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 500px;
+  padding-bottom: 30px;
+}
+.webstudio{
+  margin-bottom: -20px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+                                              /*------------HEROOOOOOO--------------*/
+.gray-section{
+background-color: #2F303A;
+width: 1600px;
+height: 600px;
+}
+.solves{
+  padding-left: 452px;
+  padding-top: 200px;
+ padding-bottom: 30px;
+  padding-right: 452px;
+  
+}
+.solve-text{
+  font-family: 'Roboto';
+  width: 696px;
+font-style: normal;
+font-weight: 900px;
+font-size: 44px;
+line-height: 60px;
+display: block;
+margin-left: 500px;
+color: #FFFFFF;
+text-transform: uppercase;
+
+}
+.check{
+  display: inline-block;
+  background-color: #2196F3;
+  width: 200px;
+  height: 50px;
+  margin-left: 680px;
+  margin-right: 578px;
+  margin-top:20px;
+  border-radius: 5px;
+}
+.button-text{
+  font-family:Roboto;
+font-style: normal;
+color: #FFFFFF;
+line-height: 30px;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.06;
+
+}
+
+                             /*-----------------------TEXT UNDER THE HERO-------------------- */
+.description{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 94px;
+}
+
+
+
+
+
+
+
+
+                                                 /*------WHATAREWEDOING----------- */
+.whatwearedoing{
+text-align: center;
+margin-bottom: 50px;
+margin-top: 94px;
+
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+    
+}
+    
+  
+    
+.whattodo{
+  width: 1600px;
+}
+
+
+
+
+
+
+
+
+
+                                                    /* -------------------TEAM-------------- */
+
+  .ourteamone{
+              text-align: center;
+              padding-top: 94px;
+              padding-bottom: 50px;
+              background: #F5F4FA;
+            }
+             
+  .team{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
+.teamimg{
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.team-name{
+  text-align: center;
+  margin-bottom: 10px;
+
+
+
+font-size: 16px;
+line-height: calc(19 / 16);
+
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.team-prof{
+text-align: center;
+font-size: 16px;
+line-height: calc(19 / 16 );
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+
+}
+
+
+.ourteamgray{
+  background-color: #F5F4FA;
+  margin-top: 94px;
+  width: 1600px;
+}
+
+.team-div{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+                                                      /*---------FOOTER----------*/
+
+
+
+.mail{
+  padding-bottom: 9px;
+  padding-top: 9px;
+
+}
+.gray-footer{
+  background-color:#2F303A;
+     padding-top: 60px;
+     text-align:left; 
+     width: 1600px;
+     padding-bottom: 60px;
+     letter-spacing: 0.03em;
+
+
+     
+
+
+}
+.webstu{
+  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-left: 215px;
+}
+
+.footerinfo{
+  padding-top: 9px;
+  padding-left:215px;
+}
